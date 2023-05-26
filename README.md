@@ -3,4 +3,4 @@ Introducing my weather web app powered by HTML, CSS, and JS! Experience the conv
 
 [Live Link to my web app](https://krishnaneel.github.io/weatherWebApp/)
 
-[Live demo of my web app] (https://youtu.be/JIB0Jkk6cIY)
+[Live demo of my web app](https://youtu.be/JIB0Jkk6cIY)
