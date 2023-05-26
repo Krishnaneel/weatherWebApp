@@ -5,7 +5,7 @@ const DAYS_OF_THE_WEEK = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 let selectedCityText;
 let selectedCity;
 const getCitiesUsingGeolocation = async (searchText) => {
-    const respnse = await fetch(`https://api.openweathermap.org/geo/5.0/direct?q=${searchText}&limit=5&appid=${API_KEY}`);
+    const respnse = await fetch(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/geo/1.0/direct?q=${searchText}&limit=5&appid=${API_KEY}`);
     return respnse.json();
 }
 
